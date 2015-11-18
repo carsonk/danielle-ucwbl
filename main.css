@@ -3,8 +3,8 @@
 */
 
 body {
-  background:#EEEEEE;
-  color: #222222;
+  background: #000;
+  color: #333;
 }
 
 /* The topnav are navigation links shown across the top of the ePortfolio directly under the title */
@@ -19,7 +19,7 @@ body {
 }
 
 #header_container, #main_container {
-  background-color:#FFFFFF;
+  background-color:#000;
   border-color:#FFFFFF;
   border-style:solid;
   border-width:0 10px;
@@ -36,12 +36,17 @@ body {
   border: 1px solid #ccc
 }
 
+.module_content {
+  background-color: #EEE;
+  color: #333;
+}
+
 .navigation_topnav {
-  background-color:#f7f7f7;
+  background-color:#333;
 }
 
 .navigation_topnav a {
-  color:#222222;
+  color:#eee;
   font-family: Verdana,Helvetica,Arial,sans-serif;
 
 }
@@ -60,3 +65,8 @@ body {
   background:none;
 }
 
+/* Custom selectors. */
+.container {
+  background: #000;
+  border: none !important;
+}
