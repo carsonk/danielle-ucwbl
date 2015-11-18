@@ -1,0 +1,62 @@
+/*
+  The “properties” inside the curly brackets control elements such as color, type treatments, position, ect. You can modify the following css elements to customize your pages style.
+*/
+
+body {
+  background:#EEEEEE;
+  color: #222222;
+}
+
+/* The topnav are navigation links shown across the top of the ePortfolio directly under the title */
+#site_topnav ul li a {
+  color:#000000;
+}
+
+/* The header is the area at the top of the page above the title, while the #main_container is the center content of page.*/
+#header_container {
+  padding-bottom:0.5em;
+  padding-top:10px;
+}
+
+#header_container, #main_container {
+  background-color:#FFFFFF;
+  border-color:#FFFFFF;
+  border-style:solid;
+  border-width:0 10px;
+  position:relative;
+}
+
+#header_container .title {
+  border-bottom:2px solid #CCCCCC !important;
+  padding:15px;
+}
+
+/* The module_topnav controls the navigation within your pages and content.*/
+#module_topnav{
+  border: 1px solid #ccc
+}
+
+.navigation_topnav {
+  background-color:#f7f7f7;
+}
+
+.navigation_topnav a {
+  color:#222222;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+
+}
+
+/*The #footer is for the content at the bottom of your pages and can be customized to fit the look and feel you are looking for. */
+#footer_container {
+  background:none;
+  border-top:1px solid #AAAAAA;
+}
+
+.title{
+  display:block;
+}
+
+#footer {
+  background:none;
+}
+
