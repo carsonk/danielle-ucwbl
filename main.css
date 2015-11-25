@@ -21,7 +21,7 @@ body {
 
 #header_container, #main_container {
   background-color:#ffe599;
-  border-color:#333;
+  border-color: rgba(255,255,255,.8);
   border-style: solid;
   border-width: 4px;
   position:relative;
